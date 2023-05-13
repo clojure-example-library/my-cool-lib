@@ -1,6 +1,6 @@
 # io.github.clojure-example-library/my-cool-lib
 
-FIXME: my new library.
+My cool library.
 
 ## Usage
 
