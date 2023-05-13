@@ -3,8 +3,8 @@
   (:require [clojure.tools.build.api :as b]
             [deps-deploy.deps-deploy :as dd]))
 
-(def lib 'io.github.clojure-example-library/my-cool-lib)
-(def version "0.1.0-SNAPSHOT")
+(def lib 'net.clojars.clojure-example-library/my-cool-lib)
+(def version "0.1.0")
 #_ ; alternatively, use MAJOR.MINOR.COMMITS:
 (def version (format "1.0.%s" (b/git-count-revs nil)))
 (def class-dir "target/classes")
